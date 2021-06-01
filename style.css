@@ -1,0 +1,279 @@
+/*DOCUMENTO CSS*/
+*{ font-size: 100%;
+    /* margin: 0px;
+       padding: 0px;*/}
+
+/*TIPOGRAFIAS*/
+/* @font-face {
+  font-family: "Source Serif Pro";
+  src: url("Semi-bold 600.eot?") format("eot"),
+  url("Semi-bold 600.woff") format("woff"),
+  url("Semi-bold 600.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Balsamiq Sans";
+  src: url("Regular 400.eot?") format("eot"),
+  url("Regular 400.woff") format("woff"),
+  url("Regular 400.ttf") format("truetype");
+}*/
+
+
+h2 { font-family: 'Lora', serif;}
+
+
+body {font-family: 'Balsamiq Sans', cursive;}
+
+.logo img { width: 100px;
+            height: auto;}
+
+.cabecera { background-color: white;
+            padding: .5em 0;}
+
+.cabecera .container  { display: flex;
+                        flex-flow: wrap;
+                        align-items: center;
+                        justify-content:space-between;
+                      }
+
+/*ESTILOS PARA EL BOTON MENU*/    
+
+.btn-menu { border: 0px;
+            font-size: 2em;
+            padding: 0px 0px;
+            background-color: transparent;
+            margin-left: auto;
+            }
+
+.btn-menu: focus { outline: 0;
+}
+
+/*BARRA DE NAVEGACIÓN*/
+
+#menu-principal { flex: 1 1 100%;}
+
+#menu-principal ul { 
+                     margin: 1em 0px 0px 0px;
+                     list-style: none;
+                     padding: 0;}
+
+#menu-principal ul a { text-decoration:none;
+                       display: block;
+                       line-height: 2.6;
+                       border-top: 1px solid rgba(250, 219, 216, 0.6) ;
+                       color: #785B67;
+                       text-align: center;}
+
+#menu-principal ul a:hover, #menu-principal ul a:active { background-color: #F5B7B1;}
+
+/*SECCION PANTALLA*/
+
+.pantalla { background-color: #E8A2A4;
+            background-image: url(img/img_03_03.png);
+            background-size: cover;
+            background-position: bottom;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            flex-flow: column;}
+
+/*OFERTA DE VALOR*/
+
+.ofertav { flex: 1 1 auto;
+           display: flex;
+           color: #84626D;}
+
+.display-4 { font-size: 44px;
+             font-weight: 300;
+             line-height: 1;
+             text-align: left;
+             margin-top: 100px;}
+
+.bajar a { color: white;
+           display: inline-block;
+           text-shadow: 1px 1px 6px #84626D;
+           font-size: 40px;}
+
+
+#primero {  position: absolute;
+                left: 28%;
+                right: 28%;
+                bottom: 60px;
+                color: #84626D;
+                background-color: rgba(255, 255, 255, 0.5);
+                border-radius: 30px;
+                border-color: transparent;}
+
+#primero:hover, #primero:active, #primero:focus { color: #84626D; 
+                                                  background-color: rgba(255, 255, 255, 0.5);
+                                                  border-color: transparent;
+                                                  border-bottom-color: transparent;}
+
+
+/*CONTENIDO*/
+
+h3 { color: #84626D;
+     font-size: 20pt;
+     margin-bottom: 50px}
+
+/*SECCION DISENO*/
+
+.diseno {padding: 50px 0px;
+        }
+
+.diseno p { color: #EE7E82;
+             font-size: 10pt;
+             font-family: 'Lora', serif;
+             font-style: italic;
+              line-height: 0.4;}
+
+.titulos {margin-bottom: 50px;}
+
+.item { min-height: 1px;}
+
+.item2 { 
+         min-height: 1px;
+         margin: 0px;
+         padding: 0px;}
+
+.item2 img {width: 100%;}
+
+/*SECCION ILUSTRACION*/
+
+.ilustracion { background-color: #F6C5BE;
+                padding: 50px 0px 50px;
+               }
+
+.il-item img {  padding-bottom: 15px;
+                width: 100%;
+                height: auto;
+                display: block;}
+
+/*SECCION SOLUCIONES*/
+
+.principal .row {margin-top: 50px;}
+
+.contenido article { color: #84626D;
+                     padding: 10px;
+                     display: block;
+                     box-sizing: border-box;
+                     margin-bottom: 15px;}
+
+.contenido p { font-family: 'Lora', serif;
+               font-size: 12pt;}
+
+.producto img { width: 100%;
+                margin-bottom: 50px;
+                box-shadow: 15px 15px 0px #F6B7B2;}
+
+/*PRODUCTOS*/
+.pr-item { margin-bottom: 15px;}
+
+.pr-item p { padding: 30px;
+             font-size: 20pt;
+             background-color: #F6C5BE;
+             color: white;} 
+
+.pr-item a:hover, .pr-item:active {text-decoration: none;}
+
+.pr-item img { 
+                width: 100%;
+                height: auto;
+                display: block;}
+
+
+/*FORMULARIO*/
+
+.formulario { color: #84626D;
+              background-color: #F19A9A;
+              padding: 50px 50px;
+              margin-bottom: 50px;}
+
+.formulario h3 {color: white;}
+
+.formulario input, .formulario button {color: #84626D;
+                                       background-color: rgba(255, 255, 255, 0.5);
+                                       border-radius: 30px;
+                                       border-color: transparent;}
+
+#segundo:hover, #segundo:active, #segundo:focus { color: #84626D; 
+                                                  background-color: #F6C5BE;
+                                                  border-color: transparent;
+                                                  border-bottom-color: transparent;}
+
+/*REDES SOCIALES*/
+
+.redes ul { list-style: none;}
+
+.redes ul img { width: 100px;
+                height: auto;}
+
+#cel { font-size: 12pt;}
+
+#cel a { color: #84626D !important;}
+
+#social a { color: #84626D;
+            font-size: 28pt;}
+
+#social a:hover { color: #F19A9A;}
+
+#social { display: flex;
+          flex-flow: row;}
+
+#social li { display: block;
+             width: 25%;}
+
+/*PIE DE PÁGINA*/
+
+.pie { margin-top: 50px;
+       color: white;
+       background-color: #84626D;}
+
+/*MEDIA QUERIES*/
+
+@media only screen and (min-width:768px) { 
+    
+    .cabecera .container  { flex-flow: column;
+                            align-items: center;
+                            justify-content:center;
+                          }
+    
+    .btn-menu { display: none;}
+    
+    #menu-principal { display: block;}
+    
+    #menu-principal ul { display: flex;
+                         align-items: center;
+                         margin-top: 0px;}
+    
+    #menu-principal ul li a { padding: 0px .5em;
+                              border-top: 0px;}
+    
+    #menu-principal ul li a:hover { background-color: transparent;
+                                    color: #F19A9A;}
+    
+    .logo img { margin: 15px;}
+    
+    .pantalla { background-image: url(img/img_04.png);
+                background-size:cover;
+                background-position: bottom;}
+    
+    .display-4 { font-size: 60px;
+                 line-height: 1.2;
+                 display: flex;
+                 align-items: center;
+                 min-height: 50vh;
+                 margin-top: 0px;}
+    
+    .ofertav { margin-top: 200px;}
+
+    #primero {  position: absolute;
+                left: 40%;
+                right: 40%;
+                bottom: 60px;}
+    
+    .pr-item p { padding: 20px;
+                 font-size: 16pt;}
+}
+
+    
